@@ -1,0 +1,112 @@
+body {
+	background-color: #2C3E50	;
+	color: white;
+	font-family: 'Lora', sans-serif;
+}
+
+button {
+	background-color: #D6EAF8;
+	color: black;
+	border: solid black 1px;
+	-webkit-transition-duration: 0.4s;
+  transition-duration: 0.	4s;	
+  font-size: .8em;
+  font-family: 'Lora', sans-serif;
+  border-radius: 10px;	
+  box-shadow: 0 4px 0 0 black	;	
+}
+
+button:hover {
+	background-color: #0527F9;
+}
+	
+li {
+	position: relative;
+	margin: 5px;
+}
+#basic-info {
+	text-align: center;
+	background-color: #2980B9;
+	border-radius: 10px;
+	border: solid white 1px	;
+	margin: 10px;
+}
+
+.section-1 {
+	margin: 5px;
+	padding: 0px;
+}
+
+.title {
+	font-size: 4em;
+	padding: 0px;
+	margin: 5px;
+}
+
+#education {
+	background-color: #5499C7;
+	border-radius: 10px;
+	border: solid white 1px	;
+	margin: 10px;
+}
+
+#experience {
+	background-color: #5499C7;
+	border-radius: 10px;
+	border: solid white 1px	;
+	margin: 10px;
+}
+
+#skills {
+	background-color: #5499C7;
+	border-radius: 10px;
+	border: solid white 1px	;
+	margin: 10px;	
+}
+
+.header {
+	width: 66%;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #2980B9;	
+	margin-right: auto;
+	margin-left: auto;
+}
+.sub-header {
+	background-color: #D6EAF8;
+	width: 33%;
+	margin: 0px auto 0px 10px;
+	border-radius: 10px;
+	position: absolute;
+	text-align: center;	
+	color: black;
+}
+.anchor {
+	display: inline-block;lock;
+	margin-left: 20px;
+}
+
+.marginized {
+	margin-right: 20px;
+}
+
+.right {
+	float: right;
+	display: inline-block;
+	position: relative;
+}
+
+.skills-list {
+	text-align: center;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;	
+}
+
+.content {
+	display: none;
+}
+
+.show {
+	display: block;
+}

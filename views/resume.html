@@ -1,0 +1,98 @@
+<doctype! html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/style.css"/>
+	    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Lora">
+	<title>Jake Marzitelli</title>
+	<script>
+	function expand(element) {
+		 document.getElementById(element).classList.toggle('show');
+	}
+	</script>
+</head>
+<body>
+	<div class="section" id="basic-info">
+		<h1 class="title center">Jake Marzitelli</h1>
+		<div id="address">
+			<p class="section-1">5900 Otter Ridge Circle,</br>
+					White Bear Lake, MN, 55110</p>
+		</div>
+		<div id="contact-info">
+			<p class="section-1">651-357-8072|mjakehs@gmail.com</p>
+		</div>
+	</div>
+	<div class="section" id="education">
+		<h1 class="title"><button onclick="expand('drop1')">Education</button></h1>
+		<div class="content" id="drop1">
+			<h2 class="header left">New York University Leonard N. Stern School of Business</h2>
+			<p class="anchor">Bachelors of Science in Business</br>Concentration in Finance</p>
+			<p class="right marginized">Graduated May 2017</br>GPA: 3.2</p>
+		</div>	
+	</div>
+	<div class="section" id="experience">
+		<h1 class="title"><button onclick="expand('drop2')">Experience</button></h1>
+		<div class="content" id="drop2">
+				<div class="subsection" id="optimum-mech">
+						<h2 class="header left">Optimum Mechanical Systems</h2>
+						<h3 class="sub-header">Operations Assitant</h3>
+						<h3 class="sub-header right">June 2014 - June 2018/Non-Continously</h3>
+						<br>
+						<ul>
+							<li>Managed and maintained company inventory and inventory records.</li>
+							<li>Coordinated material delivery between central office, vendors, and site managers.</li>
+							<li>Organized and maintained employee and payment records.</li>
+							<li>Assisted in demolition and installation of HVAC systems.</li>
+							<li>Helped maintain accounting information and manage accounting system</li>
+						</ul>
+					</div>
+					<div class="subsection" id="bstow">
+						<h2 class="header">Bstow</h2>
+						<h3 class="sub-header left">Growth Advisor</h3>
+						<h3 class="sub-header right">November 2017 - January 2018</h3>
+						<br>
+						<ul>
+							<li>Constructed sales pipeline of prospective customers through email marketing and
+							cold calling techniques.</li>
+							<li>Prepared sales material and strategy to penetrate new markets.</li>
+							<li>Worked with development team to coordinate product innovation to customer needs.</li>
+						</ul>
+					</div>
+					<div class="subsection" id="dash-hudson">
+						<h2 class="header">Dash-Husdon</h2>
+						<h3 class="sub-header">Business Development Intern</h3>
+						<h3 class="sub-header right">June 2016 - December 2016</h3>
+						<br>
+						<ul>
+							<li>Trained new hires in the sales process and use of CRM.</li>
+							<li>Drafted and delivered email templates to qualify inbound and outbound prospects.</li>
+							<li>Created weekly, monthly, and quarterly sales reports, and presented them at sales team and company wide meetings.</li>
+							<li>Built excel based models to forecast sales performance and analyze value chains.</li>
+							<li>Developed and implemented company policies on use and maintenance of CRM software.</li>
+						</ul>
+					</div>
+			</div>
+	</div>
+	<div class="section" id="skills">
+		<h1 class="title left"><button onclick="expand('drop3')">Skills</button></h1>
+		<div class="content" id="drop3">
+				<div class="subsection" id="tech">
+					<h2 class="header">Technical Skills</h2>
+						<ul class="skills-list">
+							<li>CRM inculding Salesforce and Hubspot</li>
+							<li>Microsoft Office</li>
+							<li>Basic HTML, CSS, Javascript</li>
+							<li>Basic Ruby on Rails</li>
+						</ul>
+				</div>
+				<div class="subsection" id="comm">
+					<h2 class="header">Communication Skills</h2>
+						<ul class="skills-list">
+							<li>Effective presentation production and delivery</li>
+							<li>Teamwork and group process efficiency</li>
+							<li>Able to write clear and precise statements and documents</li>
+						</ul>
+				</div>
+		</div>
+ 	</div>
+</body>
